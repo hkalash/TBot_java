@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         defaultClient.setBasePath("https://api.gateio.ws/api/v4");
 
         // Configure APIv4 authorization: apiv4
-        defaultClient.setApiKeySecret("YOUR_API_KEY", "YOUR_API_SECRET");
+        defaultClient.setApiKeySecret("40ddff2753ca923d147d009e920641f8", "b8f789544b50f2edc3c05b7cb8293c7072f83ecfc33c270fa2377371696577eb");
 
         AccountApi apiInstance = new AccountApi(defaultClient);
         try {
